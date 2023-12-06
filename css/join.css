@@ -1,0 +1,58 @@
+@import url(common.css);
+
+#container{padding-top: 61px;}
+#container #inner{border-top: 1px solid #8f8585;}
+#container .c_logo{text-align: center;width: 100%;padding-top: 50px;color: #756b6b;font-size: 26px;margin-bottom: 30px;}
+
+/* login form */
+#container fieldset{border: 0;width: 70%;margin: 0 auto;}
+#container legend{display: none;}
+
+#container label{display: inline-block;width: 15%;height: 40px;line-height: 40px;margin-right: 5px;}
+#container label img{width: 100%;height: 40px;} /* 추후 사이즈 조정 */
+#container input#id{width: 75%;height: 40px;margin-top: 10px;background-color: #fffce0;border: 2px solid #8d7e7e;border-radius: 20px;padding-left: 10px;outline: 0;}
+#container input#pw{width: 75%;height: 40px;margin-top: 5px;background-color: #fffce0;border: 2px solid #8d7e7e;border-radius: 20px;padding-left: 10px;outline: 0;}
+
+#container input#ch{height: 10px;width: 10px;margin-left: 5px;}
+#container label#save{display: inline-block;height: 20px;width: 25%;line-height: 20px;font-size: 0.7em;padding-top: 10px;color: #756b6b;font-weight: 600;}
+
+#container .c_list{float: right;padding-top: 10px;}
+#container .c_list li{float: left;font-size: 0.7em;font-weight: 600;height: 20px;line-height: 20px;}
+#container .c_list li:last-child{margin-left: 5px;}
+#container .c_list li:after{content: '|';display: inline-block;margin-left: 5px;color: #b4b4b4;}
+#container .c_list li:last-child:after{content: '';}
+#container .c_list li a{display: inline-block;color: #756b6b;}
+
+#container input#login{width: 100%;margin-top: 25px;height: 40px;background-color: #b9a8a8;border: 2px solid #7c6c6c;border-radius: 20px;color: #f7f5e3;font-size: 16px;font-weight: 600;}
+#container input#join{width: 100%;margin-top: 5px;height: 40px;background-color: #7c6c6c;border: 2px solid #7c6c6c;
+    border-radius: 20px;color: #f7f5e3;font-size: 16px;font-weight: 600;margin-bottom: 35px;}
+
+#frm .on{text-align: center;color: #f00;padding-top: 3px;font-size: 12px;}
+
+/* sns 로그인 */
+.hr-sect {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: #7c6b6b;
+    font-size: 12px;
+    margin: 8px 0 30px 0;
+}
+.hr-sect::before,
+.hr-sect::after {
+    content: "";
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.35);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 16px;
+}
+
+/* sns */
+#container .other{width: 100%;padding-bottom: 95px;}
+#container .other:after{content: '';display: block;clear: both;}
+#container .other ul{width: 50%;margin: 0 auto;}
+#container .other ul li{width: 30%;float: left;height: 90px;margin: 1.5%;}
+#container .other ul li a{display: block;width: 100%;margin: 1%;height: 60px;}
+#container .other img{width: 100%;height: 100%;border-radius: 10px;}

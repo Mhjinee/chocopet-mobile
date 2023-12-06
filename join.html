@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chocopet</title>
+    <link rel="stylesheet" href="css/join.css">
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/join.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="header_top">
+                <div id="top">
+                    <a href="#"><img src="images/totop.png" alt="totop"></a>
+                </div>
+                <h1 class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="초코펫로고"></a>
+                </h1>
+                <div class="nu">
+                    <a href="#" class="menu"><img src="images/menu.png" alt="gnbmenu"></a>
+                </div>
+                <div class="ch">
+                    <a href="#" class="btn"><img src="images/search.png" alt="search"></a>
+                </div>
+            </div>
+            <div class="search_wrap">
+                <form action="#">
+                    <div class="search_box">
+                       <input type="search" placeholder="검색어를 입력하세요">
+                       <input type="image" src="images/search.png" alt="검색">
+                    </div>
+                </form>
+            </div>
+            <nav id="gnb">
+                <ul>
+                    <li class="home"><a href="#"><img src="images/back.png" alt="나가기"></a></li>
+                    <li class="main"><a href="index.html">홈</a></li>
+                    <li class="main"><a href="join.html">로그인&회원가입</a></li>
+                    <li class="main"><a href="#">실내</a></li>
+                    <ul class="sub">
+                        <li><a href="living.html">실내 전체보기</a></li>
+                        <li><a href="#">하우스</a></li>
+                        <li><a href="#">방석</a></li>
+                    </ul>
+                    <li class="main"><a href="#">외출</a></li>
+                    <ul class="sub">
+                        <li><a href="#">외출 전체보기</a></li>
+                        <li><a href="#">외출용품</a></li>
+                        <li><a href="#">의류</a></li>
+                    </ul>
+                    <li class="main"><a href="#">스텝</a></li>
+                    <ul class="sub">
+                        <li><a href="#">스텝 전체보기</a></li>
+                        <li><a href="#">논슬립스텝</a></li>
+                        <li><a href="#">2,3단 스텝</a></li>
+                    </ul>
+                    <li class="main"><a href="#">고양이</a></li>
+                    <ul class="sub">
+                        <li><a href="#">고양이 전체보기</a></li>
+                        <li><a href="#">스크래쳐/장난감</a></li>
+                        <li><a href="#">하우스/해먹</a></li>
+                    </ul>
+                    <li class="main"><a href="#">고객센터</a></li>
+                    <ul class="sub">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">Q&A</a></li>
+                    </ul>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="container">
+        <div id="inner">
+            <!-- container -->
+        <!-- 로그인폼 상단에 로고 -->
+        <h1 class="c_logo">LOGIN</h1>
+        <form action="#" method="post" id="frm">
+            <fieldset>
+                <legend>로그인폼</legend>
+                <label for="id"><img src="images/whitechocolate.png" alt="choco"></label>
+                <input type="text" name="id" id="id" placeholder="아이디"><br>
+                <label for="pw"><img src="images/whitechocolate.png" alt="choco2"></label>
+                <input type="password" name="pw" id="pw" placeholder="비밀번호"><br>
+
+                <input type="checkbox" name="ch" id="ch">
+                <label for="ch" id="save">아이디 저장</label>
+
+                <ul class="c_list">
+                    <li><a href="#">아이디 찾기</a></li>
+                    <li><a href="#">비밀번호 찾기</a></li>
+                </ul><br>
+
+                <input type="submit" value="로그인" id="login">
+                <input type="submit" value="회원가입" id="join">
+            </fieldset>
+        </form>
+        <div class="hr-sect">SNS 로그인</div>
+        <div class="other">
+            <ul>
+                <li><a href="#"><img src="images/kakao.jpg" alt="kakao"></a></li>
+                <li><a href="#"><img src="images/naver.jpg" alt="naver"></a></li>
+                <li><a href="#"><img src="images/insta.jpg" alt="insta"></a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <h2 class="blind">저작권정보</h2>
+        <address class="addr">상호. 주식회사 초코펫하우스 대표자. 탁태경<br>사업자 등록번호. 888-88-01218[사업자정보확인] <br>주소. 11815 경기도 의정부시 용민로 493 (민락동) 227호</address>
+        <h1 class="flogo">
+            <a href="index.html"><img src="images/logo.png" alt="하단로고"></a>
+        </h1>
+        <div class="sns">
+            <ul>
+                <li><a href="#"><img src="images/insta.jpg" alt="인스타"></a></li>
+                <li><a href="#"><img src="images/facebook.jpg" alt="페이스북"></a></li>
+                <li><a href="#"><img src="images/x.jpg" alt="트위터"></a></li>
+            </ul>
+        </div>
+        <p class="tel">TEL.070-8858-3825</p>
+        <p class="con">월 ~ 금 / 10:00 ~ 16:00 <br>점심시간 / 13:00 ~ 14:00 <br>주말,공휴일 휴무 <br>chocopet1@naver.com</p>
+        <p class="copy">Copyright&copy; 2023 주식회사 초코펫하우스. All rights reserved.</p>
+    </footer>
+</body>
+</html>
